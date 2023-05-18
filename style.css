@@ -66,3 +66,35 @@ li {
     display: flex;
     justify-content: right;
   }
+  /*----Parte baja de la pagina------*/
+  .container{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    
+  }
+  .call-part{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    background-color: rgb(48, 92, 235);
+    height: 100px;
+    width: 600px;
+  }/*Tengo que juntar mas las lineas del texto*/
+  #call-text{
+    display: flex;
+    flex-direction: column;
+    padding-top: -15px;
+  }
+  #button-part{
+    padding-left: 40px;
+  }
+  #call-button{
+    padding: 10px, 24px;
+    border-radius: 10px;
+    align-items: right;
+    border: 2px solid #4CAF50;
+    height: max-content;
+  }
